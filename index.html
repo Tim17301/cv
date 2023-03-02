@@ -3,47 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <title>Tim´s Persönlichse Seite</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico">
 </head>
 
 <body>
 
-    <!--
-    Das ist der erste Abschnitt mit Profilbild, Name und Titel
-    -->
-    <table cellspacing="20!" >
-        <tr>
-            <td><img src="images/Naruto.png" alt="Naruto Uzumaki"></td>
-            <td><h1>Tim Lorenz</h1>
-    <p>Web Developer and Software Engineer</p></td>
-        </tr>
-    </table>
+
+
+
+
+<!--++++++++++++++++++++++++++++++++++++++Navigation-Bar+++++++++++++++++++++++++++++++++++++++-->
     
 
 
-    <!--
-    Das ist der zweite Abschnitt mit dem About me Teil
-    -->
-    <hr>
-    <h3>About me</h3>
-    <p>My name is Tim Lorenz, and I am currently studying Media Informatics at <a href="https://www.th-luebeck.de/">TH Lübeck</a>. At 21 years old, I am always eager to learn new skills and 
-        techniques to broaden my knowledge. What particularly fascinates me about my course of study is web development. I love the challenge of creating 
-        dynamic and engaging web content that seamlessly integrates design and functionality. I am always looking for opportunities to expand my skill set,
-         and I believe that my passion for web development will lead me to exciting and rewarding career opportunities.</p>
-      
+    <div class="navigation-bar">
+        <img class="Logo" src="images/Logo.png" alt="Logo">
+        <h2 class="home-links"><a href="index.html">Home</a></h2>
+        <h2 class="contact-links"><a href="Kontakt.html">Contact me</a></h2>
         
-    <!--
-    Dritter Teil mit meinen Skills
-    -->
-    <hr>
-    <h3>Skills</h3>
-    <table cellspacing="10">
+    </div>
+
+    
+    
+
+
+
+
+
+
+
+<!--++++++++++++++++++++++++++++++++++++header-bar+++++++++++++++++++++++++++++++++++++++-->
+
+<div class="header-bar">
+    <div class="typewriter">
+        
+            <p>
+            hi, i`m Tim. i`m a programmer.
+            </p>
+    </div>
+</div>
+
+
+
+
+
+
+
+<!--+++++++++++++++++++++++++++++++++++++Skills++++++++++++++++++++++++++++++++++++++++++++++-->
+
+<div class="Skills">
+    <h2 class="mySkills">My Skills</h2>
+    <table class="skill-table">
         <tr>
             <td>HTML</td>
             <td>★☆☆☆☆</td>
         </tr>
         <tr>
             <td>CSS</td>
-            <td>☆☆☆☆☆</td>
+            <td>★☆☆☆☆</td>
         </tr>
         <tr>
             <td>JavaScript</td>
@@ -54,14 +72,28 @@
             <td>★☆☆☆☆</td>
         </tr>
     </table>
+</div>
 
 
 
-    <!--
-    Vierter Teil um auf die Kontakt Seite zu kommen
-    -->
-    <hr>
-    <a href="Kontakt.html"><strong>Contact me</strong> </a>
+<div class="filler">
+
+</div>
+    
+<!--+++++++++++++++++++++++++++++++++++++About-me++++++++++++++++++++++++++++++++++++++++++++++-->
+    
+<div class="about-me">
+    <h2 class="aboutMe">About me</h2>
+    <p class="aboutMeText">My name is Tim Lorenz, and I am currently studying Media Informatics at <a class="thlübeck-a" href="https://www.th-luebeck.de/">TH Lübeck</a>. 
+        At 21 years old, I am always eager to learn new skills and techniques to broaden my 
+        knowledge. What particularly fascinates me about my course of study is web development. 
+        I love the challenge of creating dynamic and engaging web content that seamlessly integrates 
+        design and functionality. I am always looking for opportunities to expand my skill set, and 
+        I believe that my passion for web development will lead me to exciting and rewarding career 
+        opportunities.</p>
+</div>
+   
+    
 
 
 </body>
